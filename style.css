@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+
+
+.rasm{
+    width: 70%;
+    height: 50vh;
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+
+    img{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    video{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+    }
+}
+
+.images{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    font-family: sans-serif;
+
+    input{
+        width: 60%;
+        outline: none;
+        height: 5vh;
+        font-size: 15px;
+        text-indent: 10px;
+    }
+
+    button{
+        background-color: blue;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        width: 10%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+
+
+
+
+
+.imagee{
+    width: 70%;
+    height: 50vh;
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+
+    img{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    video{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+    }
+}
+
+.videos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    font-family: sans-serif;
+
+    input{
+        width: 60%;
+        outline: none;
+        height: 5vh;
+        font-size: 15px;
+        text-indent: 10px;
+    }
+
+    button{
+        background-color: blue;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        width: 10%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+
+
+#name{
+    margin-top: 1%;
+}
+#nameV{
+    margin-top: 1%;
+}
+
+
+@media (min-width: 412px) and (max-width: 914px) {
+    
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.rasm{
+    width: 70%;
+    height: 30vh;
+    background-color: transparent;
+    color: white;
+    border: none;
+    img{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    video{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+    }
+}
+
+.images{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    font-family: sans-serif;
+    
+    input{
+        width: 68%;
+        outline: none;
+        height: 3vh;
+        font-size: 15px;
+        text-indent: 10px;
+        
+        width: 55%;
+        margin-left: -17%;
+        border-radius: 10px 0 0 10px;
+        border: 1px solid black;
+        outline: none;
+    }
+    h1{
+        width: 50%;
+        font-size: 18px;
+        margin-left: -19%;
+    }
+    #imgs{
+        box-shadow: 0 0 15px black;
+        border: none;
+        margin-top: 1%;
+    }
+    #name{
+        margin-top: 2%;
+    }
+    button{
+        background-color: blue;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        width: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 52%;
+        border-radius: 0 10px 10px 0;
+        height: 3vh;
+        margin-top: -7%;
+        width: 17%;
+    }
+
+    #downloadI{
+        width: 19%;
+    }
+}
+
+
+
+
+
+.imagee{
+    width: 70%;
+    height: 50vh;
+    background-color: transparent;
+    color: white;
+    border: none;
+
+    img{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    video{
+        width: 100%;
+
+        height: 100%;
+        background-size: 100% 100%;
+        
+    }
+}
+
+#vids{
+        box-shadow: 0 0 15px black;
+        border: none;
+        margin-top: 1%;
+}
+
+.videos{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    font-family: sans-serif;
+    h1{
+        width: 50%;
+        font-size: 18px;
+        margin-left: -19%;
+    }
+    input{
+        width: 60%;
+        outline: none;
+        height: 5vh;
+        font-size: 15px;
+        text-indent: 10px;
+        
+        height: 3vh;
+        width: 55%;
+        margin-left: -17%;
+        border-radius: 10px 0 0 10px;
+        border: 1px solid black;
+        outline: none;
+    }
+
+    #nameV{
+        margin-top: 2%;
+    }
+
+    button{
+        background-color: blue;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        width: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 52%;
+        border-radius: 0 10px 10px 0;
+        height: 3vh;
+        margin-top: -7%;
+        width: 17%;
+    }
+
+    #downloadV{
+        width: 19%;
+    }
+}
+
+
+#name{
+    margin-top: 1%;
+}
+#nameV{
+    margin-top: 1%;
+}
+}
+
+
+
+
+
+
+
+
+
+

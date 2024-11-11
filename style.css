@@ -136,6 +136,8 @@ body{
     background-color: transparent;
     color: white;
     border: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
     img{
         width: 100%;
 
@@ -170,6 +172,9 @@ body{
         border-radius: 10px 0 0 10px;
         border: 1px solid black;
         outline: none;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        
     }
     h1{
         width: 50%;
@@ -191,12 +196,11 @@ body{
         border: none;
         border-radius: 5px;
         width: 20%;
-        margin-top: 1%;
         margin-bottom: 1%;
         margin-left: 52%;
         border-radius: 0 10px 10px 0;
         height: 3vh;
-        margin-top: -7%;
+        margin-top: -17%;
         width: 17%;
     }
 
@@ -211,11 +215,12 @@ body{
 
 .imagee{
     width: 70%;
-    height: 50vh;
+    height: 30vh;
     background-color: transparent;
     color: white;
     border: none;
-
+    margin-top: 10%;
+    margin-bottom: 10%;
     img{
         width: 100%;
 
@@ -286,6 +291,7 @@ body{
 
     #downloadV{
         width: 19%;
+        margin-bottom: 20%;
     }
 }
 
